@@ -74,8 +74,8 @@ function cmove(dir){
     planet_id++;
   }else{
     if(planet_id == 0){
-      next_id = 7;
-      planet_id = 7;
+      next_id = 5;
+      planet_id = 5;
     }else{
       next_id = planet_id-1;
       --planet_id;
@@ -244,5 +244,12 @@ function closemodal(){
 
 
 // 배열
-var photo_planet = ["../img/my_logo.svg", "../img/my_logo.svg", "../img/fes_fish_pic.png", "../img/logo-color.svg", "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Jewel_of_the_Solar_System.jpg/1280px-Jewel_of_the_Solar_System.jpg", "https://upload.wikimedia.org/wikipedia/commons/3/3d/Uranus2.jpg", "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Neptune_Full.jpg/275px-Neptune_Full.jpg", "http://annesastronomynews.com/wp-content/uploads/2012/02/Mercury-has-a-large-iron-core-which-generates-a-magnetic-field-and-is-heavily-cratered-with-regions-of-smooth-plains.-It-has-no-natural-satellites-and-no-substantial-atmosphere.jpg", "https://www.universetoday.com/wp-content/uploads/2008/10/Venus-e1489179310371.jpg"];
-var planet = ["euraweb", "resume", "winter", "mefactory", "kozel", "identify", "neptune", "mercury"];
+var photo_planet = ["../img/my_logo_bk.svg", 
+"../img/my_logo_bk.svg", 
+"../img/fish-logo.svg", 
+"../img/logo-color.svg", 
+"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Jewel_of_the_Solar_System.jpg/1280px-Jewel_of_the_Solar_System.jpg",
+"../img/my_logo_bk.svg"];
+
+
+var planet = ["euraweb", "resume", "winter", "mefactory", "kozel", "identify"];

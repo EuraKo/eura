@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500');
 
 $white : #fff;
+$gray : #aaa;
 $black : #000;
 
 *{
@@ -105,7 +106,7 @@ html, body{
         .mokup_com{
           width: 100vmin;
           height: 50vmin;
-          background-image: url("../img/Mockup.jpg");
+          background-image: url("../img/mockup01.jpg");
           background-repeat: no-repeat;
           background-size: cover;
           background-position: center;
@@ -129,6 +130,7 @@ html, body{
         }
         a:last-child{
           float: right;
+        }
         }
       }//.process_btn
 
@@ -225,9 +227,9 @@ html, body{
         position: absolute;
         width: 37vmin;
         height: 37vmin;
-        background: $black;
-        box-shadow: 0 10px 20px 10px rgba(0,0,0,1);
-        border-radius: 50%;
+        background: $white;
+        box-shadow: 0 10px 20px 10px rgba($white,1);
+        // border-radius: 50%;
         margin: auto;
         top: 0;
         bottom: 12vmin;
@@ -239,7 +241,7 @@ html, body{
           position: absolute;
           width: 100%;
           height: 100%;
-          box-shadow: inset 0 -1.5vmax 3vmax 1.2vmax rgba(0,0,0,1);
+          // box-shadow: inset 0 -1.5vmax 3vmax 1.2vmax rgba($white,1);
           border-radius: 50%;
           z-index: 10;
         }
@@ -247,7 +249,7 @@ html, body{
           position: absolute;
           width: 100%;
           height: 100%;
-          background: url("../img/my_logo.svg");
+          background: url("../img/my_logo_bk.svg");
           background-repeat: no-repeat;
           background-position: center;
           background-size: 80%;
@@ -430,7 +432,7 @@ html, body{
       }//.name_container
     }//.orbit
   }//.bottom
-}
+
 
 .moon{
   width: 100%;
@@ -453,7 +455,7 @@ html, body{
   background-image: url("../img/resume.png");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size: 90%;
 }
 .del{
   padding: 30px 60px;
