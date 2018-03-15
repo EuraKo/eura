@@ -17,6 +17,16 @@ html, body { background: #fff; height: 100%; overflow: hidden; font-family: 'Mon
 
 .container .carousel .active { display: block !important; }
 
+.container .carousel #p0 .mokup_com { background-image: url("../img/mokup00.jpg"); }
+
+.container .carousel #p1 .mokup_com { background-image: url("../img/mokup01.jpg"); }
+
+.container .carousel #p2 .mokup_com { background-image: url("../img/mokup02.jpg"); }
+
+.container .carousel #p3 .mokup_com { background-image: url("../img/mokup03.jpg"); }
+
+.container .carousel #p4 .mokup_com { background-image: url("../img/mokup04.jpg"); }
+
 .container .carousel .citem { display: none; background: #fff; width: 100%; height: auto; text-align: justify; transition: all 0.4s; }
 
 .container .carousel .citem h1 { color: #000; font-weight: 400; margin-top: 15vh; padding: 2vmin 7vmin; display: block; width: 100%; background: #eee; text-transform: uppercase; }
@@ -25,9 +35,7 @@ html, body { background: #fff; height: 100%; overflow: hidden; font-family: 'Mon
 
 .container .carousel .citem h1 .citem_btn button { background-color: inherit; font-size: 32px; font-size: 2rem; }
 
-.container .carousel .citem .mokup .mokup_img { background-image: url(); background-repeat: no-repeat; }
-
-.container .carousel .citem .mokup .mokup_com { width: 100vmin; height: 50vmin; background-image: url("../img/mockup01.jpg"); background-repeat: no-repeat; background-size: cover; background-position: center; }
+.container .carousel .citem .mokup .mokup_com { width: 100vmin; height: 50vmin; background-repeat: no-repeat; background-size: cover; background-position: center; }
 
 .container .carousel .citem .process_btn { width: 100%; height: auto; padding: 3vmin 20vmin; }
 
