@@ -140,7 +140,7 @@ background-size: contain; }
 
 .moon span { width: 0.8vmin; height: 0.8vmin; background: #000; border-radius: 50%; position: absolute; }
 
-#resumeBox { width: 100%; height: 100%; background-image: url("../img/resume.png"); background-repeat: no-repeat; background-position: center; background-size: 90%; }
+#resumeBox { width: 100%; height: 100%; background-image: url("../img/resume.png"); background-repeat: no-repeat; background-position: center; background-size: contain; }
 
 .del { padding: 30px 60px; float: right; }
 
