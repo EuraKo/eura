@@ -1,0 +1,23 @@
+#processBox {width: 100%;height: 900vw;overflow: scroll;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size:contain;
+}
+/*프로세스이미지*/
+.kozel_p{
+  background-image: url("../img/prosess_kozel.jpg");
+}
+.mefactory_p{
+  background-image: url(../img/prosess_mefactory.jpg);
+  
+}
+.winter_p{
+  background-image: url(../img/prosess_winter.jpg);
+  
+}
+.del { padding: 30px 60px;position: fixed;right: 0; }
+
+.del a { display: block; width: 60px; height: 60px; background-color: #fff; text-align: center; line-height: 60px; box-shadow: 1px 1px 1px 1px #aaa; }
+
+.del a:hover { border: 1px solid #aaa; }
