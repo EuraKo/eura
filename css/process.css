@@ -9,11 +9,13 @@
   background-image: url("../img/prosess_kozel.jpg");
 }
 .mefactory_p{
-  background-image: url(../img/prosess_mefactory.jpg);
-  
+  background-image: url("../img/prosess_mefactory.jpg");
 }
 .winter_p{
-  background-image: url(../img/prosess_winter.jpg);
+  background-image: url("../img/prosess_winter.jpg");
+}
+#processBox.identity{height: 250vw;
+  background-image: url("../img/identity.jpg");
   
 }
 .del { padding: 30px 60px;position: fixed;right: 0; }
